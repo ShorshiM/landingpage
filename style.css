@@ -1,0 +1,324 @@
+/* estilos generales */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.seccion-oscuro {
+  color: white;
+  background-color: #1b1b32;
+}
+
+.seccion-clara {
+  color: black;
+  background-color: white;
+}
+
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
+.texto-negro {
+  color: black;
+}
+
+.texto-blanco {
+  color: white;
+}
+
+/* barra de navegación */
+.navbar {
+  padding: 2rem;
+  background-color: #f5f6f7;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* seccion hero */
+
+.hero {
+  background-color: #f5f6f7;
+  min-height: 450px;
+  text-align: center;
+}
+
+.hero-principal {
+  padding: 3rem;
+}
+
+.hero-principal h2 {
+  font-size: 1.5rem;
+  color: #615151;
+}
+
+.hero-img {
+  width: 120px;
+  height: 145px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+h1,
+.title {
+  font-size: 2rem;
+  font-family: "Rubik Dirt", system-ui;
+  padding: 15px 0;
+}
+
+/* experiencia */
+
+.experiencia {
+  padding: 40px 40px 60px 40px;
+}
+
+.experiencia i {
+  font-size: 2.5rem;
+  color: #7ade30;
+  background-color: #0a0a23;
+  padding: 8px 19px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.columna:hover i {
+  border: 2px solid #0a0a23;
+  background-color: #010002;
+  transition: all 0.2s ease;
+}
+
+.experiencia-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.bad {
+  font-size: 0.9rem;
+}
+
+.columna {
+  border: 2px solid #89b1da;
+  border-radius: 10px;
+  box-shadow: 2px 1px 4px 1px #89b1da;
+  transition: all 0.2s ease;
+}
+
+.columna:hover {
+  background-color: #89b1da;
+  opacity: 0.9;
+  transition: all 0.2s ease;
+}
+
+.columna:hover p {
+  color: black;
+  transition: all 0.2s ease;
+}
+
+.columna:hover .bad {
+  background-color: #0c6cfc;
+  transition: all 0.2s ease;
+}
+
+/* proyectos*/
+
+.proyectos {
+  padding: 40px;
+}
+
+.proyecto {
+  position: relative;
+}
+
+.proyecto img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.proyecto-cont {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.proyecto:hover img {
+  opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .iconos {
+  display: flex;
+  justify-content: center;
+}
+
+.overlay i {
+  color: black;
+  font-size: 60px;
+  margin: 10px;
+}
+
+.overlay i:hover {
+  color: #1b1b32;
+}
+
+/* Contacto */
+
+.contacto .container {
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.contacto .rectangulo {
+  margin-top: -5rem;
+  background-color: rgb(13, 110, 253);
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contacto .descripcion {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.contacto button {
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button i {
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+  background-color: white;
+  color: black;
+}
+
+.contacto button:hover i {
+  color: black;
+}
+
+/* Pie de página */
+
+footer {
+  min-height: 500px;
+}
+
+.background-footer {
+  background-color: #070512;
+}
+
+.footer-logo {
+  margin: 10px;
+}
+
+.footer-text {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.iconos-redes a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes a i {
+  color: white;
+}
+
+.iconos-redes a:hover i {
+  color: black;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes a:hover {
+  background-color: white;
+  transition: all 0.2s ease-in;
+  border: 5px solid #1b1b32;
+}
+
+.derechos {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-logo {
+    width: 130px;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+
+  .overlay i {
+    font-size: 40px;
+  }
+
+  .seccion-descripcion {
+    font-size: 13px;
+  }
+}

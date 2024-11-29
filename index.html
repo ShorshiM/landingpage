@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Titulo -->
+    <title>Jorge Mejía | Line Page</title>
+
+    <!-- Metadatos -->
+    <meta name="author" content="Jorge Mejía" />
+
+    <meta name="description" content="Portafolio de desarrollo web" />
+
+    <meta name="keywords" content="HTML JavaScript CSS" />
+
+    <!-- Favicon -->
+
+    <link rel="icon" type="image/x-icon" href="img/logo.png" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <!-- barra de navegacion -->
+      <nav class="navbar navbar-expand-md navbar-light navbar-light">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-toggler"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+              <img
+                class="img-logo"
+                src="img/logo.png"
+                width="90"
+                height="55"
+                alt="Logo de la pagina"
+              />
+            </a>
+            <ul
+              class="navbar-nav d-flex justify-content-center align-items-center"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Sobre-mi"
+                  >Sobre mi</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#Contacto"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- seccion hero -->
+      <section class="hero align-items-stretch">
+        <div
+          class="hero-principal d-flex flex-column justify-content-center align-items-center"
+        >
+          <div class="col-12">
+            <img
+              class="hero-img"
+              src="img/foto.jpeg"
+              alt="Foto de perfil"
+              class="mx-auto d-block rounded"
+            />
+          </div>
+          <div class="col-12 text-center">
+            <h1>Hola, Soy Jorge Mejía</h1>
+          </div>
+          <div class="col-12 text-center">
+            <h2>Desarrollo Aplicaciones Web con Frameworks conocidos</h2>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center flex-md-row flex-column">
+          <div class="p-1">
+            <img
+              class="rounded-circle"
+              src="img/bootstrap.jpg"
+              alt=""
+              width="210"
+              height="200"
+            />
+          </div>
+          <div class="p-1">
+            <img src="img/hero-inferior.svg" alt="" width="230" height="230" />
+          </div>
+          <div class="p-1">
+            <img src="img/laravel.png" alt="" width="260" height="220" />
+          </div>
+        </div>
+      </section>
+
+      <section id="Sobre-mi" style="background-color: #1b1b32">
+        <div class="row text-center">
+          <div class="col mt-5">
+            <h2 class="title text-light">Conoce a Jorge Mejía</h2>
+          </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center">
+          <div class="col-9 col-md-8 col-lg-5 mb-5">
+            <p class="text-light text-center px-5 mt-3 mb-5">
+              Hola, es un gusto que piensen en mi como alguien a considerar en
+              su proyecto, mi nombre completo es Jorge Joel Mejía Molina, tengo
+              24 años, Mis hobbies son: Videojuegos, Música y mi deporte
+              favorito es el Ecuavoley, mis mayores virtudes son:
+              Responsabilidad, Firmeza, Respeto, Confianza, Seguridad en mis
+              acciones, con respecto a mis valores: Compromiso, Fidelidad y
+              Compañerismo.
+              <br />
+              Prefiero el trabajo en equipo, me gusta ayudar y escucho las
+              criticas de mis compañeros, soy entusiasta tanto al principio como
+              al final del proyecto y siempre busco mejorar mi trabajo. <br />
+              Espero cumplir con sus expectativas y trabajar con ustedes.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- experiencia -->
+      <section class="experiencia seccion-clara">
+        <div class="container tex text-center">
+          <div class="row">
+            <!-- Desarrollo web -->
+            <div class="columna col-12 col-md-6">
+              <i class="bi bi-laptop"></i>
+              <p class="experiencia-titulo">Desarrollo Web</p>
+              <p>
+                Aunque tengo proyectos que no son de aplicación Web me
+                especializo en dicho campo, Me destaco en aplicaciones con
+                Frameworks populares actualmente como Bootstrap, React o
+                Laravel,
+              </p>
+              <p class="bad badge btn-primary">CSS</p>
+              <p class="bad badge btn-primary">HTML</p>
+              <p class="bad badge btn-primary">JavaScript</p>
+              <p class="bad badge btn-primary">Bootstrap</p>
+            </div>
+
+            <!-- Estudiante -->
+            <div class="columna col-12 col-md-6">
+              <i class="bi bi-person-circle"></i>
+              <p class="experiencia-titulo">Estudiante</p>
+              <p>
+                Un programado constantemente esta aprendiendo, en mi caso es
+                similar, En la actualidad me estoy especializando en
+                aplicaciones Web, estoy aprendiendo con los Frameworks mas
+                populares y mejorar mi experiencia al diseñar los proyectos.
+              </p>
+              <p class="bad badge btn-primary">React</p>
+              <p class="bad badge btn-primary">Laravel</p>
+              <p class="bad badge btn-primary">Bootstrap</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Proyectos -->
+      <section
+        id="Proyectos"
+        class="proyectos seccion-clara d-flex flex-column"
+      >
+        <h2 class="title text-dark">Mis Proyectos</h2>
+        <h3 class="seccion-descripcion">
+          Estos son mis proyectos creados por el momento
+        </h3>
+
+        <!-- Galeria de proyectos -->
+        <div class="container proyecto-cont text-center">
+          <div class="row">
+            <!-- proyecto-1 -->
+            <div class="col-md-6 col-12 col-lg-4">
+              <div class="proyecto">
+                <img src="img/proyecto-1.png" alt="" />
+                <div class="overlay">
+                  <p>Proyecto 1</p>
+                  <p class="seccion-descripcion">Tienda Online</p>
+                  <div class="iconos">
+                    <a
+                      href="https://github.com/ShorshiM/tienda-online.git"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- proyecto-2 -->
+            <div class="col-md-6 col-12 col-lg-4">
+              <div class="proyecto">
+                <img src="img/proyecto-2.png" alt="" />
+                <div class="overlay">
+                  <p>Proyecto 2</p>
+                  <p class="seccion-descripcion">Videojuego Tower Defense</p>
+                  <div class="iconos">
+                    <a
+                      href="https://github.com/ShorshiM/Juego-python.git"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- proyecto-3 -->
+            <div class="col-md-6 col-12 col-lg-4">
+              <div class="proyecto">
+                <img src="img/proyecto-3.png" alt="" />
+                <div class="overlay">
+                  <p>Proyecto 3</p>
+                  <p class="seccion-descripcion">Tienda con Java</p>
+                  <div class="iconos">
+                    <a
+                      href="https://github.com/ShorshiM/Proyecto_POO.git"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- proyecto-4 -->
+            <div class="col-md-6 col-12 col-lg-4">
+              <div class="proyecto">
+                <img src="img/proyecto-4.bmp" alt="" />
+                <div class="overlay">
+                  <p>Proyecto 4</p>
+                  <p class="seccion-descripcion">Videojuego Snake con C++</p>
+                  <div class="iconos">
+                    <a
+                      href="https://github.com/ShorshiM/Snake-c-.git"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- proyecto-5 -->
+            <div class="col-md-6 col-12 col-lg-4">
+              <div class="proyecto">
+                <img src="img/proyecto-5.png" alt="" />
+                <div class="overlay">
+                  <p>Proyecto 5</p>
+                  <p class="seccion-descripcion">Calculadora de matriz C++</p>
+                  <div class="iconos">
+                    <a
+                      href="https://github.com/ShorshiM/Calculadora-de-matrices.git"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contactos -->
+      <section id="Contacto" class="contacto background-footer">
+        <div class="container">
+          <div
+            class="container text-center d-flex justify-content-evenly rectangulo"
+          >
+            <div class="row">
+              <div class="col-12 col-md-4 title text-light">¡Hablemos!</div>
+              <div class="col-12 col-md-4 descripcion text-light">
+                Contáctame para empezar con el desarrollo de tu Aplicación Web
+              </div>
+              <dic class="col-12 col-md-4">
+                <a href="mailto:Jorge.1995.JM@hotmail.com">
+                  <button type="button">
+                    Contacto
+                    <i class="bi bi-envelope-at-fill"></i>
+                  </button>
+                </a>
+              </dic>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer
+      class="background-footer d-flex flex-column align-items-center justify-content-center"
+    >
+      <img
+        class="footer-logo"
+        src="img/logo.png"
+        alt="Logo de portafolio"
+        width="195"
+        height="150"
+      />
+      <p class="footer-text text-center text-light">
+        Aprendo y creo todos los días. <br />
+        No dudes en aceptarme en tu proyecto
+      </p>
+      <div
+        class="iconos-redes d-flex flex-wrap align-items-center justify-content-center"
+      >
+        <a href="#" rel="noopener noreferrer"><i class="bi bi-twitter"></i></a>
+        <a href="#" rel="noopener noreferrer"
+          ><i class="bi bi-instagram"></i
+        ></a>
+        <a href="#" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+        <a
+          href="https://github.com/ShorshiM"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="bi bi-github"></i
+        ></a>
+      </div>
+      <div class="derechos">Creado por Jorge Mejía (2024) &#169;</div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
