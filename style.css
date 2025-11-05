@@ -133,6 +133,12 @@ h1,
 
 .proyecto {
   position: relative;
+  width: 350px;
+  height: 230px;
+}
+
+.imagen-proyectos {
+  object-fit: cover;
 }
 
 .proyecto img {
